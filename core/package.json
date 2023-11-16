@@ -1,6 +1,6 @@
 {
   "name": "find-book",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "一个根据ISBN（国际标准图书编号）查询图书信息的库，返回书名、作者、副标题、语言、出版日期等关键信息。A library for querying book information based on ISBN (International Standard Book Number).",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -20,6 +20,9 @@
     "book retrieval",
     "图书管理",
     "书籍数据"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "justbecoder<justbecoder@aliyun.com>",
   "license": "MIT",
