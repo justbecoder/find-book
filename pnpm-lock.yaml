@@ -8,7 +8,7 @@ importers:
 
   .:
     devDependencies:
-      '@one-book/tsconfig':
+      '@find-book/tsconfig':
         specifier: workspace:*
         version: link:packages/tsconfig
       eslint:
@@ -29,7 +29,7 @@ importers:
       '@babel/preset-env':
         specifier: ^7.23.3
         version: 7.23.3(@babel/core@7.23.3)
-      '@one-book/tsconfig':
+      '@find-book/tsconfig':
         specifier: workspace:^
         version: link:../packages/tsconfig
       '@rollup/plugin-babel':
@@ -87,6 +87,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.3
         version: 0.4.4(eslint@8.48.0)
+      one-book:
+        specifier: workspace:^
+        version: link:../core
       typescript:
         specifier: ^5.0.2
         version: 5.2.2

@@ -1,7 +1,7 @@
 {
-  "name": "one-book",
-  "version": "1.0.0",
-  "description": "",
+  "name": "find-book",
+  "version": "0.0.1",
+  "description": "一个根据ISBN（国际标准图书编号）查询图书信息的库，返回书名、作者、副标题、语言、出版日期等关键信息。A library for querying book information based on ISBN (International Standard Book Number).",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -10,13 +10,23 @@
     "dev": "pnpm run build -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ISBN",
+    "ISBN search",
+    "图书信息",
+    "book details",
+    "出版信息",
+    "书籍检索",
+    "book retrieval",
+    "图书管理",
+    "书籍数据"
+  ],
+  "author": "justbecoder<justbecoder@aliyun.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
-    "@one-book/tsconfig": "workspace:^",
+    "@find-book/tsconfig": "workspace:^",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",

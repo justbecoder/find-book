@@ -1,5 +1,5 @@
 {
-  "extends": "@one-book/tsconfig/base.json",
+  "extends": "@find-book/tsconfig/base.json",
   "compilerOptions": {
     "declaration": true,
     "rootDir": "src",
