@@ -87,7 +87,7 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.3
         version: 0.4.4(eslint@8.48.0)
-      one-book:
+      find-book:
         specifier: workspace:^
         version: link:../core
       typescript:

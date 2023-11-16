@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { find, findOne } from "one-book";
+import { find, findOne } from "find-book";
 
 function App() {
   const [count, setCount] = useState(0);

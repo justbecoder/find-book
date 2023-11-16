@@ -13,5 +13,5 @@
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.9.0",
-  "name": "one-book"
+  "name": "find-book"
 }
